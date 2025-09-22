@@ -14,7 +14,7 @@ class Car:public Vehicle{
         string model ="Mustang";
 };
 int main (){
-    Car mycar;
+    Car mycar;4
     mycar.honk();
     cout<<mycar.brand+" "+mycar.model;
     return 0;
