@@ -1,52 +1,81 @@
-// #include<stdio.h>
-// int main(){
-//     int arr[3][3]={{1,2,3},{4,5,6},{7,8,9}};
-//     for (int i = 0; i < 3; i++)
-//     {
-//         for (int j = 0; j < 3; j++)
-//     {
-//         printf("%d ", arr[i][j]);
-//         }
-//         printf("\n");
+// // // #include<stdio.h>
+// // // int main(){
+// // //     int arr[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+// // //     for (int i = 0; i < 3; i++)
+// // //     {
+// // //         for (int j = 0; j < 3; j++)
+// // //     {
+// // //         printf("%d ", arr[i][j]);
+// // //         }
+// // //         printf("\n");
         
-//     }
+// // //     }
     
-//     }
+// // //     }
+// // // // #include<stdio.h>
+// // // // int main(){
+    
+// // // //     int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+// // // //     int rev[3][3];
+// // // //     for (int i = 0; i < 3; i++)
+// // // //     {
+// // // //         for (int j = 2,k=0; j >=0 ,k<3; j--,k++)
+// // // //         {
+// // // //             rev[i][k]=arr[i][j];
+// // // //         }
+        
+// // // //     }
+// // // // for (int i = 0; i < 3; i++)
+// // // //     {
+// // // //         for (int k=0;  k<3; k++)
+// // // //         {
+// // // //             printf("%d ",rev[i][k]);
+// // // //         }
+// // // //         printf("\n");
+// // // //     }
+// // // //     return 0;
+
+// // // // }
 // // #include<stdio.h>
 // // int main(){
     
-// //     int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-// //     int rev[3][3];
+// //     int arr[3][4] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 // //     for (int i = 0; i < 3; i++)
 // //     {
-// //         for (int j = 2,k=0; j >=0 ,k<3; j--,k++)
+// //         for (int j = 0; j < 3; j++)
 // //         {
-// //             rev[i][k]=arr[i][j];
-// //         }
-        
-// //     }
-// // for (int i = 0; i < 3; i++)
-// //     {
-// //         for (int k=0;  k<3; k++)
-// //         {
-// //             printf("%d ",rev[i][k]);
+// //             printf("%d ", arr[i][j]);
 // //         }
 // //         printf("\n");
 // //     }
+    
+// //         for (int i=0, j = 0; j < 3; j++)
+// //         {
+// //             printf("%d ", arr[i][j]);
+// //         }
+// //          printf("%d ",arr[1][2]);
+// //     for (int i=2, j = 2; j >=0; j--)
+// //         {
+// //             printf("%d ", arr[i][j]);
+// //         }
+// //         for (int i=1, j = 0; j < 2; j++)
+// //         {
+// //             printf("%d ", arr[i][j]);
+// //         }
 // //     return 0;
 
 // // }
 #include<stdio.h>
 int main(){
-    
-    int arr[3][4] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    for (int i = 0; i < 3; i++)
+    int arr[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+  for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
-        {
-            printf("%d ", arr[i][j]);
+    {
+        printf("%d ", arr[i][j]);
         }
         printf("\n");
+        
     }
     
         for (int i=0, j = 0; j < 3; j++)
@@ -58,10 +87,8 @@ int main(){
         {
             printf("%d ", arr[i][j]);
         }
-        for (int i=1, j = 0; j < 2; j++)
+        for (int i=1, j = 0; j < 1; j++)
         {
             printf("%d ", arr[i][j]);
         }
-    return 0;
-
 }
