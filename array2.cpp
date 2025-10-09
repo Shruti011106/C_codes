@@ -79,16 +79,16 @@ int main(){
     }
     
         for (int i=0, j = 0; j < 3; j++)
+        
+            printf("%d ", arr[i][j]);
+        }
+      printf("%d ",arr[1][2]);
+  for (int i=2, j = 2; j >=0; j--)
         {
             printf("%d ", arr[i][j]);
         }
-         printf("%d ",arr[1][2]);
-    for (int i=2, j = 2; j >=0; j--)
+        for (int i=0, j = 0; j < 1; j++)
         {
             printf("%d ", arr[i][j]);
         }
-        for (int i=1, j = 0; j < 1; j++)
-        {
-            printf("%d ", arr[i][j]);
-        }
-}
+    
