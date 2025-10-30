@@ -6,7 +6,7 @@ int main ()
     int xor2=0;
     for(int i=1;i<=5;i++)
     {
-        xor1=xor1^arr[i];
+        xor1=xor1^i;
     }
     for(int i=0;i< 4;i++)
     {
